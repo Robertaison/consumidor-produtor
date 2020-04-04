@@ -1,11 +1,6 @@
 public final class Cesta {
 
     private static Integer goiabas = 6;
-    private static final Cesta INSTANCE = new Cesta();
-
-    public static Cesta getInstance(){
-        return INSTANCE;
-    }
 
     public static Integer pedeGoiabas() throws InterruptedException {
         Thread.sleep(1000);
